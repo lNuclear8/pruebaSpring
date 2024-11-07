@@ -15,6 +15,6 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public Map<String, String> welcome() {
-        return Collections.singletonMap("mensaje", "Soy SpringBoot, saludos desde el backend.");
+        return Collections.singletonMap("mensaje", "Soy SpringBoot, saludos desde el Backend.");
     }
 }
